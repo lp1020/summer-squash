@@ -6,8 +6,6 @@ html, body {
   margin: 0;
   height: 2000px;
   scroll-behavior: smooth;
-  overflow-x: auto !important;
-  overflow-y: auto !important;
 }
 
 nav {
