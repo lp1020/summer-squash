@@ -270,7 +270,12 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-
+.section-1 {
+  -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
   .desktop {
     display: none;
   }
