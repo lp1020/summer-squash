@@ -253,7 +253,7 @@ margin-left: -20px;
 
    #summer-img {
   width: 225px;
-top:-405px;
+top:-2205px;
 left:48%;
 }
 
@@ -308,7 +308,7 @@ display: block;
 
   #summer-img-2 {
   width: 250px;
-top:-795px;
+top:-530px;
 left: 49%;
 }
 
@@ -383,38 +383,10 @@ margin-left: -45px;
 
 
    #summer-img-2 {
-top:-950px;
+top:-465px;
 }
 
   }
-
-  @media (min-width: 1500px){
-
-
-   #summer-img-2 {
-top:-900px;
-}
-
-  }
-
-  @media (min-width: 1600px){
-   #summer-img-2 {
-top:-1230px;
-}
-  }
-
-    @media (min-width: 1800px){
-   #summer-img-2 {
-top:-1980px;
-}
-  }
-
-      @media (min-width: 1900px){
-   #summer-img-2 {
-top:-2780px;
-}
-  }
-
 
 @media only screen and (max-width: 767px) {
  .land-container img {
@@ -556,7 +528,8 @@ top:-585px;
 @media only screen and (max-width: 400px) {
 
   #summer-img {
-    top: -1340px;
+    width: 215px;
+    top: -420px;
 }
 
 .section-1 {
