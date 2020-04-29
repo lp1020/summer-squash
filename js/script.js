@@ -7,8 +7,8 @@ var controller = new ScrollMagic.Controller();
 
     var scene1 = new ScrollMagic.Scene({
         triggerElement: "#animation",
-        duration: 500
-
+        duration: 700,
+        triggerHook: "onEnter"
 
     })
         .setTween("#summer-img", 1, {
