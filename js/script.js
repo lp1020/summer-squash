@@ -7,7 +7,7 @@ var controller = new ScrollMagic.Controller();
 
     var scene1 = new ScrollMagic.Scene({
         triggerElement: "#animation",
-        duration: 700,
+        duration: 900,
         triggerHook: "onEnter"
 
     })
