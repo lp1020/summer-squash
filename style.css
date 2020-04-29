@@ -583,7 +583,7 @@ h1 {
      @media (min-height: 850px) {
 
   #summer-img-2 {
-    top: -750px;
+    top: -770px;
 }
   }
 
@@ -591,14 +591,14 @@ h1 {
   @media (min-height: 900px) {
 
   #summer-img-2 {
-    top: -920px;
+    top: -930px;
 }
   }
 
     @media (min-height: 950px) {
 
   #summer-img-2 {
-    top: -1100px;
+    top: -1140px;
 }
   }
 
@@ -612,7 +612,7 @@ h1 {
   @media (min-height: 1050px) {
 
   #summer-img-2 {
-    top: -1750px;
+    top: -1770px;
 }
   }
 
