@@ -573,5 +573,49 @@ h1 {
 }
 }
 
+@media (min-height: 800px) {
+
+  #summer-img-2 {
+    top: -650px;
+}
+  }
+
+     @media (min-height: 850px) {
+
+  #summer-img-2 {
+    top: -750px;
+}
+  }
+
+
+  @media (min-height: 900px) {
+
+  #summer-img-2 {
+    top: -920px;
+}
+  }
+
+    @media (min-height: 950px) {
+
+  #summer-img-2 {
+    top: -1100px;
+}
+  }
+
+@media (min-height: 1000px) {
+
+  #summer-img-2 {
+    top: -1400px;
+}
+  }
+
+  @media (min-height: 1050px) {
+
+  #summer-img-2 {
+    top: -1750px;
+}
+  }
+
+
 
 

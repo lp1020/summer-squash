@@ -7,7 +7,7 @@ var controller = new ScrollMagic.Controller();
 
     var scene1 = new ScrollMagic.Scene({
         triggerElement: "#animation",
-        duration: 700,
+        duration: 600,
         triggerHook: "onEnter"
 
     })
@@ -18,30 +18,6 @@ var controller = new ScrollMagic.Controller();
 
 
         .addTo(controller);
-
-// var tween = TweenMax.fromTo('#summer-img-2', 0.75,
-//     {
-//       scale: 1,
-//        top: -490
-//     },
-//     {
-
-//       scale: .57,
-//        top: 212
-
-//     }
-//   );
-
-//     var scene2 = new ScrollMagic.Scene({
-//         triggerElement: "#animation-2",
-//         duration: 600,
-//         triggerHook: "onEnter"
-
-//     })
-//         .setTween(tween)
-
-
-//         .addTo(controller);
 
 
     var scene2 = new ScrollMagic.Scene({
