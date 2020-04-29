@@ -108,7 +108,7 @@ z-index: 500;
     text-align: center;
     min-height: 340px;
     margin: 20px 10px;
-    box-shadow: -8px 12px 11px 0px rgba(0,0,0,.5);
+    box-shadow: -8px 12px 11px 0px rgba(0,0,0,.05);
     border-radius: 8px;
     background-color: #fff;
 }
