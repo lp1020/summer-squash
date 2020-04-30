@@ -55,13 +55,13 @@ h1 {
   min-height: 300px;
   display: block;
   position: fixed;
-  top: -300px;
+  top: 100px;
   left: 0;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url("images/SummerSquash.png");
-  z-index: 10;
+  z-index: 50;
 }
 
  #style{
@@ -266,7 +266,7 @@ left:48%;
 }
 
   .land-container img {
-    width: 70%;
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     }
@@ -283,9 +283,9 @@ left:48%;
     top: 62%;
    }
 
-     .section-1{
+  .section-1{
   width: 100%;
-  height: 720px;
+  height: 790px;
 }
 
 .platform-img {
@@ -294,39 +294,20 @@ left:48%;
 }
 
 
-
 @media (min-width: 900px) {
 
-  .mobile {
-  display: none;
-}
-
-.desktop {
-display: block;
-}
-
-  #summer-img-2 {
+  #summer-img {
   width: 225px;
-top:-710px;
+top:-450px;
 left: 49%;
 }
 
-  .land-container img {
-    width: 50%;
-    }
-
 
   .summer-title h1 {
-  font-size: 3rem;
-    margin-top: 70px;
+  font-size: 4.5rem;
+    margin-top: -40px;
 }
-  .grid-container { grid-template-columns: repeat(3, 1fr);
-  padding: 60px 0px;
-   }
 
-   .grid-container-footer { grid-template-columns: repeat(2, 1fr);
-   padding: 30px 0px;
-   }
 
    .footer-logo img {
   float: right;
@@ -343,32 +324,51 @@ left: 49%;
 }
 
 
-  .section-1{
-  width: 100%;
-  height: 360px;
-}
-
 }
 
 
 @media (min-width: 1000px) {
 
-  #summer-img-2 {
-  width: 250px;
-top:-530px;
-left: 49%;
+          .mobile {
+  display: none;
 }
 
+.desktop {
+display: block;
+}
+
+  .land-container img {
+    width: 50%;
+    }
+
+  #summer-img {
+  width: 225px;
+top:-450px;
+}
+
+.platform-img {
+  margin-left: -30px;
+}
 
   .summer-title h1 {
   font-size: 4rem;
     margin-top: 20px;
 }
 
-  .section-1{
-  width: 100%;
-  height: 500px;
+.section-1 {
+  padding-top: 40px;
+    width: 100%;
+    height: 600px;
+
 }
+
+  .grid-container { grid-template-columns: repeat(3, 1fr);
+  padding: 60px 0px;
+   }
+
+   .grid-container-footer { grid-template-columns: repeat(2, 1fr);
+   padding: 30px 0px;
+   }
 
 }
 
@@ -383,20 +383,19 @@ left: 49%;
     margin-top: 30px;
   }
 
-   #summer-img-2 {
-  width: 250px;
-top:-470px;
-left: 49%;
+   #image {
+left: -10px;
 }
 
 .platform-img {
 margin-left: -45px;
 }
 
-  .section-1{
-  width: 100%;
-  height: 600px;
+.section-1 {
+  padding-top: 0px;
 }
+
+
 
 }
 
@@ -409,14 +408,19 @@ top:-465px;
 
   }
 
-@media only screen and (max-width: 767px) {
- .land-container img {
-    width: 100%;
-    }
+@media only screen and (max-width: 999px) {
+
+       .mobile {
+  display: block;
+}
+
+.desktop {
+display: none;
+}
 
  #summer-img {
   width: 215px;
-top:-350px;
+top:-440px;
 }
 
     .summer-title h1 {
@@ -464,25 +468,20 @@ top:-350px;
   padding-right: 20px;
 }
 
-  }
-
-@media only screen and (max-width: 768px) {
-
-  .mobile {
-  display: block;
-}
-
-.desktop {
-display: none;
-}
-
-   #grid-left { grid-area: grid-left; }
+       #grid-left { grid-area: grid-left; }
 #grid-center { grid-area: grid-center; }
 
  .grid-container {
     grid-template-areas: " grid-left " " grid-center ";
     padding: 0 0 60px 0;
   }
+
+  }
+
+
+@media only screen and (max-width: 768px) {
+
+
 
 .stars-cont {
 
@@ -506,6 +505,48 @@ top: -210px;
   100%{transform: scale(1.0);}
 }
 
+@media only screen and (max-width: 767px) {
+
+  .land-container img {
+  width: 100%;
+  position: unset;
+}
+
+#summer-img {
+  width: 215px;
+top:-480px;
+left: 50%;
+
+}
+
+.summer-title h1 {
+  margin-top: -21px;
+  }
+
+  .section-1 {
+    height: 745px;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  #summer-img {
+    top: -480px;
+    left: 48%;
+}
+
+.section-1 {
+    width: 100%;
+    height: 745px;
+}
+.platform-img {
+  margin-left: -50px;
+  }
+
+  .summer-title h1 {
+    margin-top: -10px;
+}
+}
 
 
 @media only screen and (max-width: 450px) {
@@ -513,10 +554,7 @@ h1 {
   font-size: 3rem !important;
 }
 
-.land-container {
-  width: 100%;
-  position: unset;
-}
+
 
 
 
@@ -573,48 +611,6 @@ h1 {
 }
 }
 
-@media (min-height: 800px) {
-
-  #summer-img-2 {
-    top: -650px;
-}
-  }
-
-     @media (min-height: 850px) {
-
-  #summer-img-2 {
-    top: -770px;
-}
-  }
-
-
-  @media (min-height: 900px) {
-
-  #summer-img-2 {
-    top: -930px;
-}
-  }
-
-    @media (min-height: 950px) {
-
-  #summer-img-2 {
-    top: -1140px;
-}
-  }
-
-@media (min-height: 1000px) {
-
-  #summer-img-2 {
-    top: -1400px;
-}
-  }
-
-  @media (min-height: 1050px) {
-
-  #summer-img-2 {
-    top: -1770px;
-}
-  }
 
 
 
