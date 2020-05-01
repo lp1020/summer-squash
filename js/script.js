@@ -19,7 +19,7 @@ var controller = new ScrollMagic.Controller();
     })
         .setTween("#summer-img", 1, {
             top: 305,
-            scale:.8
+            scale:.9
             })
 
 
