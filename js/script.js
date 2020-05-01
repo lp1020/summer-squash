@@ -4,6 +4,7 @@ $(document).ready(function() {
     s.destroy();
 }
 })
+
    $(window).scroll(function(){
         $(".fade-out").css("opacity", 1 - $(window).scrollTop() / ($('.fade-out').height() - 500));
     });
@@ -18,7 +19,7 @@ var controller = new ScrollMagic.Controller();
     })
         .setTween("#summer-img", 1, {
             top: 305,
-            scale:.9
+            scale:.8
             })
 
 
